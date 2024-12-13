@@ -55,10 +55,10 @@ function NewsSection() {
    }
 
    return (
-      <section className="py-24 bg-gray-400">
+      <section className="py-24 bg-gray-400 ">
          <div className="container mx-auto px-4 lg:px-6">
             {/* Header */}
-            <div className="flex items-start justify-between mb-16">
+            <div className="flex items-start justify-between mb-16 ml-20">
                <div className="space-y-4">
                   <span className="text-[#e8f500] text-xl font-medium">News</span>
                   <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-black">
@@ -67,7 +67,7 @@ function NewsSection() {
                      <span className="text-[#e8f500]">News</span>
                   </h2>
                </div>
-               <button className="bg-white p-4 flex items-center gap-2 group hover:bg-[#e8f500] transition-colors">
+               <button className=" p-4 flex items-center gap-2 group text-black bg-[#e8f500] hover:bg-white transition-colors">
                   <span className="font-medium">More News</span>
                   <Plus className="h-5 w-5" />
                </button>
@@ -75,7 +75,7 @@ function NewsSection() {
 
             {/* News Slider */}
             <div className="relative">
-               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 ml-20">
                   {[...newsItems.slice(currentIndex), ...newsItems.slice(0, currentIndex)]
                      .slice(0, 3)
                      .map((news, index) => (
@@ -84,7 +84,7 @@ function NewsSection() {
                </div>
 
                {/* Navigation Buttons */}
-               <div className="flex gap-4 mt-8">
+               <div className="absolute top-[10%] w-full flex justify-between gap-4 mt-8">
                   <button
                      onClick={prevSlide}
                      className="p-4 rounded-full bg-[#e8f500] text-black hover:bg-[#e8f500]/90 transition-colors"

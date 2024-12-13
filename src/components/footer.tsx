@@ -22,7 +22,7 @@ function Footer() {
                         placeholder="Email address"
                         className="bg-transparent border-gray-600 text-white"
                      />
-                     <Button variant="outline" className="text-white border-white hover:bg-white hover:text-black">
+                     <Button variant="outline" className="text-black border-white hover:bg-white hover:text-black">
                         Submit
                      </Button>
                   </div>

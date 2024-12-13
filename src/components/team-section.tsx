@@ -1,5 +1,6 @@
 import { Plus } from 'lucide-react'
 import Image from 'next/image'
+import TeamCard from './team-member-card';
 
 function TeamSection() {
    return (
@@ -35,30 +36,17 @@ function TeamSection() {
 
                {/* Right Column */}
                <div className="relative">
-                  <div className="relative h-[400px] w-full">
-                     <Image
-                        src="/image/team1.png"
-                        alt="John Trakpoor"
-                        fill
-                     // className="object-cover"
-                     />
-                     {/* Geometric Lines Overlay */}
-                     <div className="absolute inset-0 bg-gray-300 bottom-0 h-[200px] ">
-
-                     </div>
-                  </div>
-                  <div className="mt-6 space-y-4">
-                     <h3 className="text-2xl font-bold text-white">John Trakpoor</h3>
-                     <p className="text-gray-400">Senior Partner, Lapland</p>
-                     <button className="w-full sm:w-auto bg-transparent border border-white text-white p-4 flex items-center justify-between group hover:bg-white hover:text-black transition-colors">
-                        <span className="font-medium">LinkedIn profile</span>
-                        <Plus className="h-5 w-5" />
-                     </button>
-                  </div>
+                  <TeamCard
+                     name="John Trakpor"
+                     title="Senior Partner"
+                     location="Lapland"
+                     imageUrl="/image/team1.png"
+                     linkedinUrl="https://linkedin.com"
+                  />
                </div>
             </div>
          </div>
-      </section>
+      </section >
    )
 }
 

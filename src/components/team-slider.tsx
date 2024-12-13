@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import { ChevronLeft, ChevronRight } from 'lucide-react'
-import TeamMemberCard from './team-member-card'
+import TeamCard from './team-member-card'
 
 const teamMembers = [
    {
@@ -57,9 +57,13 @@ export function TeamSlider() {
          <div className="container mx-auto px-4 lg:px-6">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                {teamMembers.slice(currentIndex, currentIndex + 3).map((member) => (
-                  <TeamMemberCard
+                  <TeamCard
                      key={member.name}
-                     {...member}
+                     name={member.name}
+                     title={member.role}
+                     location={member.location}
+                     imageUrl={member.imageUrl}
+                     linkedinUrl="https://linkedin.com"
                   />
                ))}
             </div>

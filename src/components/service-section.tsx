@@ -26,9 +26,11 @@ const services = [
 function ServicesSection() {
    return (
       <section className="py-24 bg-[#0D1117]">
-         <div className='container flex flex-wrap justify-between p-4'>
-            <p>Service</p>
-            <p className='font-bold text-4xl w-1/4'>Our solutions leverage advanced technology, proprietary data, and deep expertise to help clients in</p>
+         <div className='px-8 py-4 flex flex-wrap justify-between'>
+            <span className='text-[#e1ff00]'>Service</span>
+            <div className='w-1/2'>
+               <span className='font-bold text-4xl '>Our solutions leverage advanced technology, proprietary data, and deep expertise to help clients in</span>
+            </div>
          </div>
          <div className="container mx-auto px-4 lg:px-6">
             <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">

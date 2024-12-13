@@ -36,7 +36,7 @@ export function ImpactStoriesSection() {
                      <span className="text-[#e8f500]">Stories</span>
                   </h2>
                </div>
-               <button className="bg-white p-4 flex items-center gap-2 group hover:bg-[#e8f500] transition-colors">
+               <button className="hover:bg-white p-4 flex items-center gap-2 group bg-[#e8f500] text-black transition-colors">
                   <span className="font-medium">More Projects</span>
                   <Plus className="h-5 w-5" />
                </button>
