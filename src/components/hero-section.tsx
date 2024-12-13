@@ -21,12 +21,12 @@ export default function HeroSection() {
 
                <div className='w-full md:w-[50%] relative md:absolute'>
                   <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-white mb-4 sm:mb-6 md:mb-8 leading-tight">
-                     Unlock your business&lsquo;s full{' '}
+                     Unlock your business&apos;s full{' '}
                      <span className="text-[#e1ff00]">potential.</span>
                   </h1>
 
                   <p className="text-base sm:text-lg md:text-xl text-gray-400 mb-6 sm:mb-8 md:mb-12 leading-relaxed">
-                     We're a global consultancy that helps the world's most ambitious
+                     We&apos;re a global consultancy that helps the world&apos;s most ambitious
                      change makers define the future.
                   </p>
 
