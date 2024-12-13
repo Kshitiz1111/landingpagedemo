@@ -7,9 +7,9 @@ import TeamSection from '@/components/team-section'
 import { TeamSlider } from '@/components/team-slider'
 import VideoSection from '@/components/video-section'
 import CTASection from '@/components/call-to-action'
-import Image from 'next/image'
-import Link from 'next/link'
-import { Plus } from 'lucide-react'
+// import Image from 'next/image'
+// import Link from 'next/link'
+// import { Plus } from 'lucide-react'
 import HeroSection from '@/components/hero-section'
 
 export default function Home() {

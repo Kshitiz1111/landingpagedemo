@@ -21,7 +21,7 @@ export default function HeroSection() {
 
                <div className='w-full md:w-[50%] relative md:absolute'>
                   <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-white mb-4 sm:mb-6 md:mb-8 leading-tight">
-                     Unlock your business's full{' '}
+                     Unlock your business&lsquo;s full{' '}
                      <span className="text-[#e1ff00]">potential.</span>
                   </h1>
 

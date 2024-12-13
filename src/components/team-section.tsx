@@ -1,5 +1,5 @@
 import { Plus } from 'lucide-react'
-import Image from 'next/image'
+// import Image from 'next/image'
 import TeamCard from './team-member-card';
 
 function TeamSection() {
